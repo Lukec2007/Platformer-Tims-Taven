@@ -18,10 +18,10 @@ public class GameOverFade : MonoBehaviour
         [Header("Fade")]
 
         [SerializeField, Tooltip("The delay in seconds before fading starts when winning.")]
-        public float m_WinDelay = 4.0f;
+        public float m_WinDelay = 0f;
 
         [SerializeField, Tooltip("The delay in seconds before fading starts when losing.")]
-        public float m_LoseDelay = 2.0f;
+        public float m_LoseDelay = 0f;
 
         [SerializeField, Tooltip("The duration in seconds of the fade.")]
         public float m_Duration = 1.0f;
